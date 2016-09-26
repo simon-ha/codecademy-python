@@ -20,3 +20,4 @@ elif len(original) > 0 and original.isalpha():
 #for any non-words, or blank entries
 else:
 	print 'invalid'
+#annotation added via cat command on bash on test branch
