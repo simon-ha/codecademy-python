@@ -1,4 +1,4 @@
-"""This python program will enable you to ascertain the area of any type of geometric, two-dimensional, and closed shape"""
+"""This python program will enable you to ascertain the area of a circle or triangle."""
 
 from math import pi
 from time import sleep
