@@ -4,6 +4,8 @@ from random import randint
 from time import sleep
 
 print "This is a dice game. Roll two die on your end, and then input the number. The assumption is that the game is using two 6-sided die. If you roll greater than the computer rolls, you win money and fame!"
+print""
+sleep(1)
 
 def get_user_guess():
   user_guess = int(raw_input("Guess a number: "))
@@ -35,7 +37,7 @@ def roll_dice(number_of_sides):
       print "YOU WON!!!"
       return
     else:
-      print "You lost, loser."
+      print "You lost, )=."
       return
     
 roll_dice(6)
